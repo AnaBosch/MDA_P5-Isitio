@@ -126,14 +126,14 @@ a { color: inherit; text-decoration: none; }
 .header_label {
     text-align: center;
 }
-
+/*
 .header_landing {
   padding: 60px;
   text-align: center;
   background: #labc9c;
     font-size: 30px;
 }
-
+*/
 /*PIE*/
 
 .footer {
@@ -158,4 +158,33 @@ a { color: inherit; text-decoration: none; }
 
 .button:hover {
   box-shadow: 0 0 16px 0 var(--main-30bright),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/*FORMULARIO*/
+
+.formulario{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    border-color: var(--main-30bright);
+    border-radius: 15px;
+}
+
+.formulario > input{
+    font-size: 20px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.formulario > select{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.formulario > textarea{
+    width: 1000px;
+    height: 250px;
+    font-size: 20px;
 }
